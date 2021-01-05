@@ -1,0 +1,23 @@
+{
+  "name": "ava-test-timed-out",
+  "version": "1.0.0",
+  "description": "A simple demonstration of an ava bug",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "keywords": [
+    "test",
+    "bug",
+    "ava"
+  ],
+  "author": "Tim Daubenschütz <tim@daubenschuetz.de> (https://timdaub.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "3.15.0",
+    "cross-fetch": "3.0.6"
+  }
+}
